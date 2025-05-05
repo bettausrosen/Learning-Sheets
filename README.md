@@ -4,7 +4,7 @@ A collection of beginner-friendly guides for popular programming languages, desi
 
 ## 🌐 Available Guides
 
-1. **[HTML](/WEB/HTML/README.md) & [CSS](/WEB/CSS/README.md)** - Web structure and styling
+1. **[HTML](/Web/HTML/README.md) & [CSS](/Web/CSS/README.md)** - Web structure and styling
 2. **[JavaScript](/JavaScript/README.md)** - Web interactivity and frontend/backend
 3. **[TypeScript](/TypeScript/README.md)** - Typed JavaScript superset
 4. **[Java](/Java/README.md)** - Object-oriented application development
