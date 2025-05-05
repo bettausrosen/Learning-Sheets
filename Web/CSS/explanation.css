@@ -1,0 +1,84 @@
+/* CSS Guide for Web Styling */
+
+/* 1. Basic Selectors */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* 2. Box Model */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 3. Flexbox */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+/* 4. Grid */
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 5. Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* 6. Colors and Typography */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #3498db;
+    font-size: 1.8rem;
+}
+
+/* 7. Transitions and Animations */
+button {
+    transition: background-color 0.3s ease;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* 8. Forms Styling */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+/* 9. Pseudo-classes */
+a:link { color: #3498db; }
+a:visited { color: #9b59b6; }
+a:hover { text-decoration: none; }
+
+/* 10. CSS Variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+}
